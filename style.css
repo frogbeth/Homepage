@@ -1,0 +1,15 @@
+.project {
+    display: flex;
+    padding: 4px;
+    justify-content: space-between;
+}
+.icons {
+    width: 3%;
+    height: 3%;
+    display: flex;
+}
+footer {
+    color: white;
+    padding: 2%;
+    background-color: rgb(97, 159, 241);
+}
