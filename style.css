@@ -16,6 +16,9 @@ header {
     width: 100%;
     height: auto;
 }
+.profilebox img {
+    margin-right: 20%;
+}
 
 .profilebox .photocontainer {
     position: relative;
@@ -98,6 +101,9 @@ footer {
     background-color: white;
     border-radius: 8px;
     border: 1px solid #bebebe;
+}
+.footercontent img {
+    margin-right: 20%;
 }
 footer .footercontent {
     margin-left:2%;
