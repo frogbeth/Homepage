@@ -3,9 +3,24 @@ body {
 }
 
 header {
-    color: white;
-    background-color: #3f8fd4;
-    padding: 2%;
+    color: black;
+    background-color: white;
+    padding: 3%;
+    box-shadow:rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    border: 1px solid #bebebe;
+}
+
+.profilebox .profileimg {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.profilebox .photocontainer {
+    position: relative;
+    width: 50%;
+    max-width: 300px;
 }
 
 .projectpanels {
@@ -79,7 +94,12 @@ a:active {
 }
 
 footer {
-    color: white;
-    padding: 2%;
-    background-color: #3f8fd4;
+    color: black;
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid #bebebe;
+}
+footer .footercontent {
+    margin-left:2%;
+    padding: 3%;
 }
