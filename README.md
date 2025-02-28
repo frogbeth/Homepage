@@ -8,8 +8,8 @@ or by cloning the repository code onto your local machine and running index.html
 
 this homepage consists of mostly placeholder text and links, and I will update it as I need to.
 
-[Image]!(screenshot1.png)<br>
-[Image]!(screenshot2.png)<br>
-[Image]!(screenshot3.png)<br>
+![Image](screenshots/screenshot1.png)
+![Image](screenshots/screenshot2.png)
+![Image](screenshots/screenshot3.png)
 
 this project was created using html, css, and javascript.
