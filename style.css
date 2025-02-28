@@ -6,7 +6,7 @@ header {
     color: black;
     background-color: white;
     padding: 3%;
-    box-shadow:rgba(0, 0, 0, 0.1);
+    box-shadow: rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     border: 1px solid #bebebe;
 }
@@ -16,6 +16,7 @@ header {
     width: 100%;
     height: auto;
 }
+
 .profilebox img {
     margin-right: 20%;
 }
@@ -102,10 +103,12 @@ footer {
     border-radius: 8px;
     border: 1px solid #bebebe;
 }
+
 .footercontent img {
     margin-right: 20%;
 }
+
 footer .footercontent {
-    margin-left:2%;
+    margin-left: 2%;
     padding: 3%;
 }

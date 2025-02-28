@@ -1,28 +1,34 @@
 <!DOCTYPE html>
-<title>Homepage</title>
 
 <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
 <link rel="stylesheet" href="style.css">
 
 <html>
-<meta name="viewport" content="width=device-width, initial-scale=1">
 
-<body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Homepage</title>
 
+    <script src="app.js">
+    </script>
+</head>
+
+<body onload="setName()">
     <header>
         <div class="profilebox">
             <div class="photocontainer">
                 <img src="profile.png" alt="profile photo" class="profileimg">
             </div>
-            <h1>Elizabeth Castaneda</h1>
+            <h1 id="profileName">Name</h1>
             <h2>About Me</h2>
             <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Sed do eiusmod tempor incididunt ut labore et dolore
                 magna aliqua. Ut enim ad minim veniam, quis nostrud
                 exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Lorem ipsum dolor sit amet, consectetur adipiscing 
-                elit. Sed do eiusmod tempor incididunt ut labore et dolore 
-                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+                consequat. Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit. Sed do eiusmod tempor incididunt ut labore et dolore
+                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
                 ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
             <div class="icons">
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />
