@@ -11,44 +11,59 @@ header {
     border: 1px solid #bebebe;
 }
 
+h2 {
+    font-size: 170%;
+}
+
 .profilebox .profileimg {
-    display: block;
     width: 100%;
     height: auto;
 }
 
-.profilebox img {
-    margin-right: 20%;
+.profilebox .photocontainer {
+    text-align:center;
+    margin-right: 3%;
+    margin-top: 1%;
 }
 
-.profilebox .photocontainer {
-    position: relative;
-    width: 50%;
-    max-width: 300px;
+.profilebox .aboutme {
+    font-size: 110%;
+}
+
+.profilebox .alignprofile {
+    display:flex;
+    padding: 2%;
+    column-gap: 2%;
+}
+
+.profilebox .contactme {
+    font-size: 325%;
+    margin-left: 3%;
+    margin-right: 1%;
 }
 
 .projectpanels {
     padding: 40px 20px;
-
 }
 
 .project {
     background-color: white;
     border: 1px solid #bebebe;
-    padding: 20px;
+    padding: 15px;
     border-radius: 8px;
     text-align: center;
 }
 
 .project .projimg {
     width: 100%;
-    height: auto;
+    height: 60%;
     border-radius: 8px;
 }
 
 .project p {
     margin-left: 2%;
     margin-right: 2%;
+    font-size: 110%;
 }
 
 .project-grid {
@@ -73,9 +88,9 @@ header {
     height: 20px;
 }
 
-.icons {
-    width: 50px;
-    height: 50px;
+.footer .icons {
+    height: 10%;
+    width: 10%;
     display: flex;
 }
 
@@ -102,13 +117,22 @@ footer {
     background-color: white;
     border-radius: 8px;
     border: 1px solid #bebebe;
+    text-align: center;
+    font-size: 105%;
 }
 
-.footercontent img {
-    margin-right: 20%;
-}
-
-footer .footercontent {
+.footercontent {
     margin-left: 2%;
     padding: 3%;
+}
+.contactme {
+    padding: 10px;
+    text-align: center;
+    font-size: 250%;
+}
+span {
+    transition: transform .2s;
+}
+span:hover {
+    transform: scale(1.5);
 }

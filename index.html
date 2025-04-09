@@ -10,30 +10,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Homepage</title>
 
-    <script src="app.js">
-    </script>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 
 <body onload="setName()">
     <header>
         <div class="profilebox">
-            <div class="photocontainer">
-                <img src="profile.png" alt="profile photo" class="profileimg">
+            <div class="alignprofile">
+                <div class="photocontainer">
+                    <img src="profile.png" alt="profile photo" class="profileimg">
+                    <h1 id="profileName">Name</h1>
+                </div>
+
+                <div class="aboutme">
+                    <h2>About Me</h2>
+                    <p style="line-height:140%"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua. Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit. Sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor 
+                        sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut 
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum 
+                        dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor 
+                        incididunt ut labore et dolor magna. </p>
+                </div>
+
+                <div class="contactme">
+                    <a href="https://www.instagram.com/elizabethmcastaneda/" target="_blank">
+                        <span class="fa-brands fa-instagram"></span>
+                    </a>
+                    <a href="https://facebook.com/profile.php?id=100041645674933&mibtextid=LQQJ4d" target="_blank">
+                        <span class="fa-brands fa-facebook"></span>
+                    </a>
+                    <a href="mailto:ecastaneda@my.okcu.edu?">
+                        <span class="fa-regular fa-envelope"></span>
+                    </a>
+                    <a href="https://github.com/frogbeth" target="_blank">
+                        <span class="fa-brands fa-github"></span>
+                    </a>
+                </div>
             </div>
-            <h1 id="profileName">Name</h1>
-            <h2>About Me</h2>
-            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Sed do eiusmod tempor incididunt ut labore et dolore
-                magna aliqua. Ut enim ad minim veniam, quis nostrud
-                exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Lorem ipsum dolor sit amet, consectetur adipiscing
-                elit. Sed do eiusmod tempor incididunt ut labore et dolore
-                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-            <div class="icons">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-plain.svg" />
-            </div>
+
         </div>
     </header>
 
@@ -41,43 +63,31 @@
         <div class="container">
             <h2>My Work</h2>
             <div class="project-grid">
-                <div class="project"><a href="https://github.com/Frogbeth">
-                        <img src="color_block.png" alt="Project 1" class="projimg">
-                        <h3>Project 1 <img class="projicon"
-                                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg">
-                        </h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Sed do eiusmod tempor incididunt ut labore et dolore
-                            magna aliqua.</p>
+                <div class="project"><a href="https://frogbeth.github.io/WeatherApp/" target=_blank>
+                        <img src="projectimgs/ss_weatherproj.png" alt="Weather app preview image" class="projimg">
+                        <h3>Weather App</h3>
+                        <p>Weather app created for spring 2025 advanced web design project 1. Created using
+                            VisualCrossing API, JS, HTML, and CSS.</p>
                     </a></div>
-                <div class="project"><a href="https://github.com/Frogbeth">
-                        <img src="color_block.png" alt="Project 2" class="projimg">
-                        <h3>Project 2 <img class="projicon"
-                                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg">
-                        </h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Sed do eiusmod tempor incididunt ut labore et dolore
-                            magna aliqua.</p>
+                <div class="project"><a href="https://github.com/frogbeth/MemoryCard-ReactApp" target=_blank>
+                        <img src="color_block.png" alt="Memory card game preview image" class="projimg">
+                        <h3>Memory Card</h3>
+                        <p>React app created for spring 2025 advanced web design project 3. (work in progress)</p>
                     </a></div>
-                <div class="project"><a href="https://github.com/Frogbeth">
-                        <img src="color_block.png" alt="Project 3" class="projimg">
-                        <h3>Project 3 <img class="projicon"
-                                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg">
-                        </h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Sed do eiusmod tempor incididunt ut labore et dolore
-                            magna aliqua.</p>
+                <div class="project"><a href="https://github.com/frogbeth/AboutMe" target=_blank>
+                        <img src="projectimgs/ss_aboutme.png" alt="about me page preview image" class="projimg">
+                        <h3>About Me</h3>
+                        <p>About me page created for fall 2024 web design midterm. Created using JS, CSS, and HTML.</p>
                     </a></div>
-                <div class="project"><a href="https://github.com/Frogbeth">
-                        <img src="color_block.png" alt="Project 4" class="projimg">
-                        <h3>Project 4 <img class="projicon"
-                                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg">
-                        </h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Sed do eiusmod tempor incididunt ut labore et dolore
-                            magna aliqua.</p>
+                <div class="project"><a
+                        href="https://myokcuedu-my.sharepoint.com/:p:/g/personal/ecastaneda_my_okcu_edu/ERC2Rx1XplhEsQeyulLyfygBadQNfrKP86Zs701pQSF0_w?rtime=O91HH4x33Ug"
+                        target=_blank>
+                        <img src="projectimgs/ss_3dmodels.png" alt="Project 4" class="projimg">
+                        <h3>3D Models</h3>
+                        <p>Three 3D weapons created for spring 2024 3D modeling final project. Created using 3dsmax,
+                            Photoshop, and Substance Painter</p>
                     </a></div>
-                <div class="project"><a href="https://github.com/Frogbeth">
+                <!-- <div class="project"><a href="https://github.com/Frogbeth">
                         <img src="color_block.png" alt="Project 5" class="projimg">
                         <h3>Project 5 <img class="projicon"
                                 src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg">
@@ -94,7 +104,7 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             Sed do eiusmod tempor incididunt ut labore et dolore
                             magna aliqua.</p>
-                    </a></div>
+                    </a></div> -->
             </div>
         </div>
     </section>
@@ -102,13 +112,20 @@
     <footer>
         <div class="footercontent">
             <h2>Contact Me</h2>
-            <p>Please contact me if you think our <br> work could be mutually beneficial!</p>
-            <p>1234 Edmond Road<br>Oklahoma City, Oklahoma 12345</p>
-            <p>(405)123-4567</p>
             <p>ecastaneda@my.okcu.edu</p>
-            <div class="icons">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-plain.svg" />
+            <div class="contactme">
+                <a href="https://www.instagram.com/elizabethmcastaneda/" target="_blank">
+                    <span class="fa-brands fa-instagram"></span>
+                </a>
+                <a href="https://facebook.com/profile.php?id=100041645674933&mibtextid=LQQJ4d" target="_blank">
+                    <span class="fa-brands fa-facebook"></span>
+                </a>
+                <a href="mailto:ecastaneda@my.okcu.edu?">
+                    <span class="fa-regular fa-envelope"></span>
+                </a>
+                <a href="https://github.com/frogbeth" target="_blank">
+                    <span class="fa-brands fa-github"></span>
+                </a>
             </div>
         </div>
     </footer>
