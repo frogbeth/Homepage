@@ -3,7 +3,7 @@ homepage app created for spring 2025 advanced web design project 2
 project requirements listed on the odin project webpage:
 (https://www.theodinproject.com/lessons/node-path-advanced-html-and-css-homepage)
 
-project may be viewed by visiting the url: https://frogbeth.github.io/Homepage/
+project may be viewed by visiting the url: https://frogbeth.github.io/Homepage/ <br>
 or by cloning the repository code onto your local machine and running index.html.
 
 on this page, a short "about me" paragraph is displayed as well as several projects that I have completed. <br>
