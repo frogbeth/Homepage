@@ -6,10 +6,11 @@ project requirements listed on the odin project webpage:
 project may be viewed by visiting the url: https://frogbeth.github.io/Homepage/
 or by cloning the repository code onto your local machine and running index.html.
 
-this homepage consists of mostly placeholder text and links, and I will update it as I need to.
+on this page, a short "about me" paragraph is displayed as well as several projects that I have completed
+click the panels displaying my projects to view each project with more detail in its own browser tab
+the clickable animated icons in the header and footer contain my contact information and social media links
 
 ![Image](screenshots/screenshot1.png)
 ![Image](screenshots/screenshot2.png)
-![Image](screenshots/screenshot3.png)
 
 this project was created using html, css, and javascript.
