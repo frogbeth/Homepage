@@ -10,7 +10,4 @@ on this page, a short "about me" paragraph is displayed as well as several proje
 click the panels displaying my projects to view each project with more detail in its own browser tab. <br>
 the clickable animated icons in the header and footer contain my contact information and social media links. <br>
 
-![Image](screenshots/screenshot1.png)
-![Image](screenshots/screenshot2.png)
-
 this project was created using html, css, and javascript.
